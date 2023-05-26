@@ -1,6 +1,12 @@
-div {
-  border: 2px solid red;
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
+
+/* div {
+  border: 2px solid red;
+} */
 
 .page {
   min-width: 1100px;
@@ -18,6 +24,8 @@ div {
   min-height: 600px;
   max-height: 756px;
   position: relative;
+  display: flex;
+  align-items: center;
   background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
@@ -45,4 +53,42 @@ div {
   position: absolute;
   top: 30px;
   left: 64px;
+}
+
+.header__title{
+  width: 730px;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+}
+
+.header__subtitle{
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+  z-index: 2;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link{
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__main-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  background-color: #2f80ed;
 }
