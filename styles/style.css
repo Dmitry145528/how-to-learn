@@ -61,6 +61,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
+  z-index: 2;
 }
 
 .header__subtitle{
@@ -91,4 +92,8 @@
   top: 64px;
   right: 0;
   background-color: #2f80ed;
+}
+
+.two-columns {
+  margin-top: 100px;
 }
