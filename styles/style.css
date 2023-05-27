@@ -121,6 +121,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  list-style-type: none;
 }
 
 .two-columns__paragraph:first-child {
@@ -135,4 +136,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
+}
+
+.digits{
+  margin: 100px 0;
 }
