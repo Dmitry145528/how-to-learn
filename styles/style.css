@@ -243,3 +243,20 @@
   margin-top: 80px;
   width: 200px;
 }
+
+.footer {
+  background-color: #1f1f1f;
+  padding: 60px 0 40px 0;
+  min-height: 350px;
+}
+
+.footer__columns {
+  width: 90%;
+  background-color: wheat;
+  margin: 0 auto;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-basis: 711px;
+}
