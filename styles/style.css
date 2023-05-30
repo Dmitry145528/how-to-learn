@@ -141,7 +141,6 @@
 }
 
 .section-title {
-  margin: 0;
   width: 60%;
   margin: 0 auto 20px auto;
   line-height: 1.15;
@@ -150,7 +149,6 @@
 }
 
 .section-subtitle {
-  margin: 0;
   width: 60%;
   margin: 0 auto;
   line-height: 34px;
@@ -159,7 +157,6 @@
 }
 
 .table {
-  margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
@@ -289,7 +286,6 @@
 }
 
 .footer__column-links {
-  margin: 0;
   padding: 0;
   list-style-type: none;
   margin: 20px 0 16px 0;
