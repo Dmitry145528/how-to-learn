@@ -8,4 +8,9 @@
     right: 58px;
     text-decoration: none;
     color: #2f80ed;
+    transition: opacity linear 0.5s;
   }
+
+.feynman__link:hover {
+    opacity: 0.6;
+}
